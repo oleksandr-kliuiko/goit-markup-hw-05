@@ -530,10 +530,10 @@ p {
 }
 
 .feedback-form {
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
-.feedback-wrapper:not(:last-child) {
+.feedback-wrapper {
     margin-bottom: 8px;
 }
 
@@ -592,6 +592,8 @@ p {
     resize: none;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* margin-bottom: 16px; */
 }
 .feedback-comment::placeholder {
     color: rgba(46, 47, 66, 0.4);
@@ -601,11 +603,13 @@ p {
     border-color: #4d5ae5;
 }
 .modal .btn {
-    position: absolute;
-    bottom: 24px;
-    left: 119px;
-    right: 120px;
+    display: block;
+    margin: auto;
+    /* position: absolute; */
     width: 169px;
+    /* bottom: 24px;
+    left: 119px;
+    right: 120px; */
 }
 
 .feedback-agreement {
