@@ -536,7 +536,9 @@ p {
 .feedback-wrapper {
     margin-bottom: 8px;
 }
-
+.feedback-wrapper:last-child {
+    margin-bottom: 16px;
+}
 .feedback-label {
     display: block;
     font-weight: 400;
@@ -615,7 +617,6 @@ p {
 .feedback-agreement {
     display: flex;
     align-items: flex-start;
-    margin-top: 8px;
     margin-bottom: 24px;
 
     font-size: 12px;
