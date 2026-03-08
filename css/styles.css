@@ -367,12 +367,12 @@ p {
 
 .footer .container {
     display: flex;
-    padding: 0;
     align-items: baseline;
-    gap: 120px;
+    /* gap: 120px; */
 }
 
 .footer-section {
+    margin-right: 120px;
     width: 264px;
 }
 
@@ -388,7 +388,7 @@ p {
 }
 
 .subscribe-thumb {
-    margin-right: auto;
+    margin-left: auto;
 }
 .subscribe-text {
     font-weight: 500;
@@ -491,8 +491,7 @@ p {
    
     border-radius: 4px;
     background-color: #fcfcfc;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(212, 125, 125, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     padding: 72px 24px 24px 24px;
 }
 
