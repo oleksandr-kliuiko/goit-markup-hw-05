@@ -613,7 +613,9 @@ p {
 }
 
 .feedback-agreement {
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
     margin-bottom: 24px;
 
     font-size: 12px;
